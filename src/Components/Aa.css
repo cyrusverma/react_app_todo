@@ -1,0 +1,18 @@
+/* #boxes {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  #cards{
+    display: flexbox;
+    flex-direction: row;
+  }
+  
+#cards > div{
+
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+    
+}
